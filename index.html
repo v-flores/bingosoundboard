@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="text/javascript">
+      function play_sound(clicked_id) {
+        var audio = new Audio(clicked_id + ".mp3");
+        audio.play();
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1 class="center">BINGO</h1>
+    <div class="container">
+      <div class="center">
+        <button id="price" onClick="play_sound(this.id)">Theme Song</button>
+        <button id="correct" onClick="play_sound(this.id)">Correct Answer</button>
+        <button id="wrong" onClick="play_sound(this.id)">Wrong Ansewr</button>
+        <button id="OOH" onClick="play_sound(this.id)">OOH (Crowd) </button>
+        <button id="taco-bell" onClick="play_sound(this.id)">taco-bell</button>
+        <button id="69" onClick="play_sound(this.id)">69</button>
+        <button id="nice" onClick="play_sound(this.id)">Nice!</button>
+        <button id="aww" onClick="play_sound(this.id)">AWW! (Crowd) </button>
+        <button id="babylaughing" onClick="play_sound(this.id)">Baby Laughing</button>
+        <button id="fewmomentslater" onClick="play_sound(this.id)">A Few Moments Later</button>
+        <button id="mariogameover" onClick="play_sound(this.id)">Mario Game Over</button>
+        <button id="rumble" onClick="play_sound(this.id)">Ready to Rumble!</button>
+        <button id="djhorn" onClick="play_sound(this.id)">DJ HORN </button>
+        
+      </div>
+    </div>
+  </body>
+</html>
